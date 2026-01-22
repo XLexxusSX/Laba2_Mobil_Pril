@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToastHandler"
+        android:layout_margin="16dp"
+        android:layout_gravity="start"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button_ok"
