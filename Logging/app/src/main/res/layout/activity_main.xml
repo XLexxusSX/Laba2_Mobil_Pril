@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Алексей Попов, Гр: Пиз-231"
+        android:textSize="18sp"
+        android:layout_margin="16dp" />
+
+    <EditText android:id="@+id/edit_text_log"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_margin="16dp"
+    android:inputType="text"
+    android:hint="Введите текст для логирования" />
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Логирование Log"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button_timber"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Логирование Timber"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
